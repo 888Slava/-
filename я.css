@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+body {
+font-family: 'Agbalumo',sans-serif;
+font-size: 20px;
+font-weight: normal;
+background: #f1f1f1;
+/*color: #0f141e;*/
+
+}
+
+.containet{
+max-width: 500px;
+margin: auto;
+padding: 10px;
+
+}
+.info{
+margin-bottom: 20px;
+text-align: center;
+    
+}
+.info-text{
+    margin-left: 50px;
+    text-align: center;
+}
+.ava{
+    width: 250px;
+    border-radius: 20px;
+box-shadow: 6px 7px 20px rgba(0,0,0,.25);
+
+}
+a{
+color: rgb(21, 4, 121);
+text-decoration: none;
+
+}
+
+a:hover{
+text-decoration:underline
+}
+a:active {
+    color: #fa8806;
+}
+/*a:visited{
+    color: grey;
+}*/
+
+
+@media  (max-width:650px) {
+    .info{
+        display: block;
+    }
+}
+    
+
+
+
+.btn{
+    background: #0250fa;
+position: 15px 20px;
+color: rgb(240, 243, 39);
+border: none;
+font-family: inherit;
+cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+.list{
+padding: 0 20px;
+
+}
+.list li {
+    margin-bottom: 10px;
+}
+.table{
+width: 10px;
+}
+.table td {
+
+padding-bottom: 10px;
+
+}
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: #1950be;
+}
+
+.card {
+border: 1px solid black;
+border-radius: 15px;
+padding: 10px 10px;
+margin-bottom: 10px;
+}
+.info-text h4{
+    margin-bottom: 30px;
+    color: rgb(236, 92, 9);
+    font-family: 'Agbalumo';
+}
+
+
+
+
+.bg-yellow {
+    background: #edf05f;
+}
+.bg-red {
+    background: #eca8b7;
+}
+.bg-green{
+    background: #63e957;
+}
+.form h2 {
+    text-align: center;
+} 
+@media (max-width: 650px){
+    
+}
+  
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #0b56ec;
+}
+.form-group input {
+width: 100%;
+box-sizing: border-box;
+
+}
+
